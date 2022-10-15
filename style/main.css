@@ -1,0 +1,66 @@
+/* Main Section */
+*{
+    margin: 0 0;
+    padding: 0 0 ;       
+}
+
+body{
+    background-color: #264653;
+    font-family: 'Roboto', sans-serif;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+/* Title Section */
+.title-section{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-section h2{
+    color: WHITE; 
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 5px;
+    text-decoration: none;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.685);
+}
+
+/* Button Section */
+.color-bar{
+    width: 7%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.685);
+    border: 3px solid WHITE;
+    border-radius: 90%;
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+    margin-bottom: 10%;
+    transition: height 0.15s, width 0.15s ;
+}
+
+button:hover{
+    height: 50px;
+    width: 50px;
+}
+
+button:active{
+    opacity: 0.6;
+}
