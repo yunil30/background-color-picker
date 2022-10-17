@@ -1,4 +1,4 @@
-//Color of the buttons.
+//Colors of the buttons.
 var btnCharcoal = document.getElementById('colorCharcoal');
 btnCharcoal.style.backgroundColor = '#264653';
 
